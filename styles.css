@@ -1,0 +1,55 @@
+/* Encabezado */
+
+.header{
+    border: 2px solid red;
+}
+
+.logo{
+    border: 1px solid green;
+}
+
+.nav-bar{
+    border: 1px solid green;
+}
+
+.menu-toggle{
+    border: 1px solid green;
+}
+
+/* Menú */ 
+
+.main-content{
+    border: 2px solid red;
+}
+
+.intro{
+    border: 1px solid green;
+}
+
+.foto-perfil{
+    border: 1px solid green;
+}
+
+.name{
+    border: 1px solid green;
+}
+
+.bio{
+    border: 1px solid green;
+}
+
+.dots-navigation{
+    border: 2px solid red;
+}
+
+.dot-active{
+    border: 1px solid green;
+}
+
+.dot{
+    border: 1px solid green;
+}
+
+.mensaje-toggle{
+    border: 2px solid red;
+}

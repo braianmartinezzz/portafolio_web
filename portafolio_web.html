@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header"> <p>Encabezado</p>
+        <!-- Logo / Nombre -->
+        <div class="logo">
+            <p>Logo</p>
+            <!-- Podrías usar una imagen SVG o PNG o texto estilizado -->
+        </div>
+
+        <!-- Menú de navegación -->
+        <nav class="nav-bar">
+            <p>Menú de navegación</p>
+            <ul>
+            <li><a href="#conoceme">Conóceme</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <!-- Icono hamburguesa para menú móvil -->
+        <button class="menu-toggle" aria-label="Abrir menú">
+            <p>Icono hamburguesa</p>
+            <!-- icono con span o SVG -->
+        </button>
+    </header>
+
+    <main class="main-content">
+        <p>Contenido principal</p>
+        <section id="conoceme" class="intro">
+            <p>Section</p>
+            <!-- Foto con borde redondeado -->
+            <img src="ruta/foto.jpg" alt="Foto de Braian Martínez y su perro" class="foto-perfil" />
+
+            <!-- Nombre destacado -->
+            <h1 class="name">Braian Martínez</h1>
+
+            <!-- Texto de presentación -->
+            <p class="bio">
+            Hola! soy estudiante en la Facultad de Ingeniería de la Universidad Nacional de La Pampa.
+            Estudio <strong>Ingeniería en Sistemas y Analista programador</strong>.
+            </p>
+
+            <p class="bio">
+            Hice este <strong>portafolio</strong> para llevar un registro de mis proyectos y para demostrar mis habilidades
+            en el área de Desarrollo de Software.
+            </p>
+        </section>
+    </main>
+
+    <!-- Puntos de navegación (carrousel/dots) -->
+    <div class="dots-navigation">
+        <p>Puntos de navegación</p>
+        <button class="dot-active"><p>activo</p></button>
+        <button class="dot"><p>inactivo</p></button>
+        <button class="dot"><p>inactivo</p></button>
+        <button class="dot"><p>inactivo</p></button>
+    </div>
+
+    <!-- Icono mensaje -->
+    <button class="mensaje-toggle" aria-label="Abrir mensaje">
+        <p>Icono mensaje</p>
+        <!-- icono con span o SVG -->
+    </button>
+</body>
+</html>
