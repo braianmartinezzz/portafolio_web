@@ -1,25 +1,62 @@
-/* Encabezado */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+}
 
+/* Encabezado */
 .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     border: 2px solid red;
 }
 
-.logo{
+.logo{  
+    display: inline-block;
     border: 1px solid green;
+    margin: 1em;
+}
+
+.b-blue-logo {
+    width: 100px;
+    height: auto;
+    display: block;
 }
 
 .nav-bar{
+    display: inline-block;
     border: 1px solid green;
 }
 
+.nav-bar ul{
+    display: flex;
+    gap: 5em; 
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
 .menu-toggle{
+    display: inline-block;
     border: 1px solid green;
+    cursor: pointer;
+    margin: 1em;
 }
 
 /* Menú */ 
 
-.main-content{
+.main-wrapper {
+    display: flex;
+    height: 100vh;
+}
+
+.main-content {
+    flex: 3;
     border: 2px solid red;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
 }
 
 .intro{
@@ -27,19 +64,32 @@
 }
 
 .foto-perfil{
+    display: block;
+    margin: 0 auto;
+    border-radius: 25%; 
+    width: 300px;
+    height: auto;
     border: 1px solid green;
 }
 
 .name{
+    text-align: center;
     border: 1px solid green;
 }
 
 .bio{
+    text-align: center;
     border: 1px solid green;
 }
 
 .dots-navigation{
+    flex: 0 0 120px; /* ancho fijo de 120px, ajusta según prefieras */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     border: 2px solid red;
+    align-items: center;
+    min-width: 60px; /* ancho mínimo opcional */
 }
 
 .dot-active{
