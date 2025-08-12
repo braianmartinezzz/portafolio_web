@@ -1,10 +1,16 @@
 *{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0px;
 }
 
 /* Encabezado */
+
+body {
+    background-color: #f5f5f5;
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 .header{
     display: flex;
     align-items: center;
@@ -35,6 +41,17 @@
     list-style: none; 
     padding: 0;
     margin: 0;
+    background: linear-gradient(45deg, #52B69A 0%, #168AAD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.nav-bar ul li a:hover{
+    background: linear-gradient(45deg, #168AAD 100%, #52B69A 0%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .menu-toggle{
@@ -66,7 +83,7 @@
 .foto-perfil{
     display: block;
     margin: 0 auto;
-    border-radius: 25%; 
+    border-radius: 10%; 
     width: 300px;
     height: auto;
     border: 1px solid green;
@@ -74,32 +91,60 @@
 
 .name{
     text-align: center;
+    font-size: 2.5em;
+    font-weight: 400;
+    font-family: 'Sniglet', Arial, sans-serif;
+    background: linear-gradient(45deg, #52B69A 0%, #168AAD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     border: 1px solid green;
 }
 
 .bio{
+    font-size: 1.2em;
     text-align: center;
     border: 1px solid green;
 }
 
+.bio strong {
+    background: linear-gradient(45deg, #52B69A 0%, #168AAD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .dots-navigation{
-    flex: 0 0 120px; /* ancho fijo de 120px, ajusta según prefieras */
+    flex: 0 0 50px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     border: 2px solid red;
     align-items: center;
-    min-width: 60px; /* ancho mínimo opcional */
+    min-width: 60px; 
 }
 
-.dot-active{
+.dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #fff; 
+    margin: 6px 0;
     border: 1px solid green;
+    transition: background 0.3s;
+    cursor: pointer;
+    padding: 0;
+    cursor: pointer;
+    display: block;
 }
 
-.dot{
-    border: 1px solid green;
+.dot.dot-active {
+    background: linear-gradient(45deg, #52B69A 0%, #168AAD 100%) !important;
 }
 
 .mensaje-toggle{
-    border: 2px solid red;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    color: red;
+    background-color: black;
 }
