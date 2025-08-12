@@ -4,3 +4,9 @@ document.querySelectorAll('.dot').forEach(dot => {
         this.classList.add('dot-active');
     });
 });
+
+document.querySelectorAll('.dot').forEach((dot, index) => {
+    dot.addEventListener('click', () => {
+        window.location.href = `portafolio_web${/*index + */1}.html`;
+    });
+});
