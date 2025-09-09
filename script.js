@@ -7,7 +7,7 @@ document.querySelectorAll('.dot').forEach(dot => {
 
 document.querySelectorAll('.dot0').forEach((dot, index) => {
     dot.addEventListener('click', () => {
-        window.location.href = `portafolio_web.html`;
+        window.location.href = `index.html`;
     });
 });
 
