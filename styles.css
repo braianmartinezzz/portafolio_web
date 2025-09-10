@@ -117,6 +117,50 @@ body {
   display: block;
 }
 
+footer {
+  background: linear-gradient(45deg, #415a77 0%, #0d1b2a 100%);
+  color: #eee;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer .links {
+  margin-bottom: 10px;
+}
+
+footer .links a {
+  color: #eee;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+footer .links a:hover {
+  color: #1e90ff; /* azul al pasar el mouse */
+}
+
+footer .social-icons {
+  margin: 10px 0;
+}
+
+footer .social-icons a {
+  display: inline-block;
+  margin: 0 8px;
+  font-size: 20px;
+  color: #eee;
+  text-decoration: none;
+}
+
+footer .social-icons a:hover {
+  color: #1e90ff;
+}
+
+footer p {
+  font-size: 13px;
+  margin-top: 10px;
+  color: #aaa;
+}
+
 @media (max-width: 768px) {
   .menu-toggle {
     display: flex; 
