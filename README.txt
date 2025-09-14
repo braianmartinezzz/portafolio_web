@@ -12,7 +12,7 @@ TODO:
 		?Habilidades
 			*Necesita una mejora estetica
 		?Proyectos
-			*Necesita una mejora estetica
+			//Necesita una mejora estetica
 			*Lemmings (Juego funcional y codigo subido a GitHub)
 			*Ver más proyectos que hice...
 		?Contacto
